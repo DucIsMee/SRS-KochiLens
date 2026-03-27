@@ -1,13 +1,4 @@
 # KOCHI LENS — SOFTWARE REQUIREMENTS SPECIFICATION (SRS)
-## Module: Quản lý Sản phẩm (PIM — Product Information Management)
-
-| Phiên bản | 1.0 |
-|---|---|
-| Ngày lập | 27/03/2026 |
-| Trạng thái | Draft |
-| Khách hàng | Kochi Lens Co., Ltd. |
-
----
 
 # PHẦN 1: MÔ HÌNH HÓA QUY TRÌNH (BUSINESS FLOW)
 
@@ -282,7 +273,3 @@ Bảng lưu trữ toàn bộ thông tin đơn hàng từ lúc khởi tạo đế
 | ProductVariant | N — N | OrderLine | Nhiều biến thể xuất hiện trong nhiều đơn hàng (qua bảng OrderLine). |
 | Order | 1 — N | OrderLine | Một đơn hàng chứa nhiều dòng sản phẩm. |
 | Order | 1 — 1 | Invoice | Mỗi đơn hàng DELIVERED tương ứng 1 hóa đơn xuất VAT. |
-
----
-
-_Tài liệu nội bộ — Kochi Lens Co., Ltd. — Không phát hành ra ngoài_
